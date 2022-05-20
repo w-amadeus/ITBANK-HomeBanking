@@ -20,3 +20,34 @@
 .nav-item{
     padding: 0 18px;
 }
+
+
+
+
+
+/* Footer */
+
+footer{     position: absolute;  bottom: 0;
+    width: 100%;
+    height: 200px;
+   
+}
+.footcolor{background-color: #060606;
+    color: aliceblue;
+    
+}
+
+.aHover:hover{
+    color: red;
+}
+
+footer a{
+
+    color: aliceblue;
+}
+.positiosecfoot{position: relative; top: 50px;
+}
+
+.marginfoot2em{
+    padding: 2em;
+}
