@@ -7,14 +7,13 @@
     padding: 0 10px;
   }
   
-body{
-  background-color: #fce6e6;
+  /*Body*/
+body {
+background-color: #fce6e6;
 }
 
-
-
 .box   { 
-  display: flex;
+display: flex;
 justify-content: center;
 text-align: center;
 border: none;
@@ -28,6 +27,7 @@ border: none;
   margin-bottom: 30px;
   text-shadow: -1px 0 1px #444;
   color: #5e0101;
+  font-family: Noto sans, sans-serif;
 }
 
 .section {
@@ -54,27 +54,68 @@ border: none;
 .titulo {
   color: #5e0101;
   font-family: Noto Sans, sans-serif;
-  font-weight: bold;
-  text-align: center;
-  margin: 10px;
-  padding: 10px;
-  font-size: 17px;
+font-weight: bold;
+text-align: center;
+margin: 10px;
+padding: 10px;
+font-size: 17px;
 
 }
 
 .buttom {
-  color: black;
-  font-family: Noto Sans, sans-serif;
-  font-weight: bold;
-  text-align: center;
-  margin: 8px;
-  padding: 11px;
-  text-shadow: -1px 0 1px #444;
-}
-.detalle {
-  color: black;
-  font-family: Noto Sans, sans-serif;
-  font-weight: bold;
-  text-shadow: -1px 0 1px #444;
+color: black;
+font-family: Noto Sans, sans-serif;
+font-weight: bold;
+text-align: center;
+margin: 4px;
+padding: 9px;
+text-shadow: -1px 0 1px #444;
+border: black;
 }
 
+
+.FormTransfer {
+padding: 5px;
+text-align: center;
+}
+
+.TransfiereBoton{
+padding: 10px;
+margin: 10px;
+font-family: Noto Sans, sans-serif;
+background-color: white !important;
+color:black;
+text-shadow: -1px 0 1px #444;
+font-size: 17px;
+font-weight: bold;
+border: black;
+}
+
+.FormInput{
+width: 57px;
+height: 34px;
+margin: 20px;
+border: 1px solid ;
+}
+    
+.FormMoneda{
+margin: 19px;
+border: 1px solid ;
+font-family: Noto Sans, sans-serif;
+background-color: white !important;
+color:black;
+text-shadow: -1px 0 1px #444;
+font-size: 12px;
+}
+
+.buttonTransferir{
+  margin: 10px;
+  border: 1px black;
+  font-family: Noto Sans, sans-serif;
+  background-color: white !important;
+  color:black;
+  text-shadow: -1px 0 1px #444;
+  font-size: 17px;
+  font-weight: bold;
+  
+  }
