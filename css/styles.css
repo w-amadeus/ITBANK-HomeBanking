@@ -10,6 +10,7 @@
   /*Body*/
 body {
 background-color: #fce6e6;
+width:100%;
 }
 
 .box   { 
@@ -38,7 +39,7 @@ border: none;
 .boxing {
   border: 1px ridge #5e0101;
   background: ##fae3e3;
-  height: 400px;
+  height: 390px;
   width: 270px;
   margin: 35px;
   padding: 30px;
@@ -117,5 +118,5 @@ font-size: 12px;
   text-shadow: -1px 0 1px #444;
   font-size: 17px;
   font-weight: bold;
-  
+
   }
