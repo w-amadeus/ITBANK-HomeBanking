@@ -8,6 +8,7 @@
     padding: 0 10px;
   }
   
+<<<<<<< HEAD
   
 /* Nav Bar */
 #title {
@@ -69,3 +70,124 @@ text-decoration: none;
     padding: 2em;
 }
 
+=======
+  /*Body*/
+body{
+background-color: #fce6e6;
+width:100%;
+}
+
+.box{ 
+display: flex;
+justify-content: center;
+text-align: center;
+}
+
+.CajaBody{
+border: 1px ridge #5e0101;
+background: ##fae3e3;
+height: 390px;
+width: 270px;
+margin: 35px;
+padding: 30px;
+box-shadow: 0px 0px 5px 0px #bc0101;
+}
+.CajaBody:hover {
+	text-shadow: 1px 1px rgba(0,0,0,.3);  /* Sombra del texto */
+	background: #ffcccc;  /* Fondo más oscuro que el original */
+	box-shadow:inset 4px 4px 4px rgba(0,0,0,.3), inset -3px -3px 3px rgba(255,255,255,.2);
+}
+
+.TextosBody {
+display: flex;
+justify-content: center;
+text-align: center;
+margin-top: 30px;
+margin-bottom: 30px;
+text-shadow: -1px 0 1px #444;
+color: #5e0101;
+font-family: Noto sans, sans-serif;
+}
+
+.section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.TitulosBody{
+color: #5e0101;
+font-family: Noto Sans, sans-serif;
+font-weight: bold;
+text-align: center;
+margin: 10px;
+padding: 10px;
+font-size: 17px;
+}
+
+.BotonDetallesCuenta {
+color: black;
+font-family: Noto Sans, sans-serif;
+font-weight: bold;
+text-align: center;
+margin: 4px;
+padding: 9px;
+text-shadow: -1px 0 1px #444;
+border: black;
+}
+.BotonDetallesCuenta:hover{
+text-shadow: 1px 1px rgba(0,0,0,.3);  /* Sombra del texto */
+background: #ffcccc;  /* Fondo más oscuro que el original */
+box-shadow:inset 4px 4px 4px rgba(0,0,0,.3), inset -3px -3px 3px rgba(255,255,255,.2);
+}
+
+.FormTransfer {
+padding: 5px;
+text-align: center;
+}
+
+.TransfiereBoton{
+padding: 10px;
+margin: 10px;
+font-family: Noto Sans, sans-serif;
+background-color: white !important;
+color:black;
+text-shadow: -1px 0 1px #444;
+font-size: 15px;
+font-weight: bold;
+border: black;
+}
+
+.FormMonto{
+width: 57px;
+height: 34px;
+margin: 20px;
+border: 1px solid ;
+}
+
+.FormMoneda{
+margin: 19px;
+border: 1px solid ;
+font-family: Noto Sans, sans-serif;
+background-color: white !important;
+color:black;
+text-shadow: -1px 0 1px #444;
+font-size: 14px;
+text-transform: uppercase;
+}
+
+.BotonTransferir{
+margin: 10px;
+border: 1px black;
+font-family: Noto Sans, sans-serif;
+background-color: white !important;
+color:black;
+text-shadow: -1px 0 1px #444;
+font-size: 17px;
+font-weight: bold;
+}
+.BotonTransferir:hover{
+  text-shadow: 1px 1px rgba(0,0,0,.3);  /* Sombra del texto */
+  background: #ffcccc;  /* Fondo más oscuro que el original */
+  box-shadow:inset 4px 4px 4px rgba(0,0,0,.3), inset -3px -3px 3px rgba(255,255,255,.2);
+  }
+>>>>>>> feature/carousel
