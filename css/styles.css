@@ -1,0 +1,347 @@
+/* Navigation Bar */
+#title {
+    background-color: #fb0202;
+}
+
+.row {
+    display: flex;
+}
+
+.main-header {
+    width: 1920px;
+    background-color: #9d0101;
+}
+
+.icon-logo {
+    position: relative;
+    left: 130px;
+}
+
+.d-flex {
+    position: relative;
+    left: 300px;
+}
+
+.container-fluid {
+    padding: 0% 10%;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.navbar-nav {
+    color: #5e0101;
+    font-style: normal;
+    font-family: Noto sans, sans-serif;
+}
+
+.navbar {
+    padding-bottom: .5rem;
+}
+
+.navbar-collapse {
+    position: relative;
+    left: -40px;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+
+/*Body*/
+body {
+    background-color: #fce6e6;
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.CajaBody {
+    border: 1px ridge #5e0101;
+    background: #fae3e3;
+    height: 390px;
+    width: 270px;
+    margin: 35px;
+    padding: 30px;
+    box-shadow: 0px 0px 5px 0px #bc0101;
+    max-width: 1158px;
+
+}
+
+.CajaBody:hover {
+    text-shadow: 1px 1px rgba(0, 0, 0, .3);
+    /* Sombra del texto */
+    background: #ffcccc;
+    /* Fondo más oscuro que el original */
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, .3), inset -3px -3px 3px rgba(255, 255, 255, .2);
+}
+
+.TextosBody {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-shadow: -1px 0 1px #444;
+    color: #5e0101;
+    font-family: Noto sans, sans-serif;
+}
+
+.section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.TitulosBody {
+    color: #5e0101;
+    font-family: Noto Sans, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.BotonDetallesCuenta {
+    color: black;
+    font-family: Noto Sans, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 4px;
+    padding: 9px;
+    text-shadow: -1px 0 1px #444;
+    border: black;
+}
+
+.BotonDetallesCuenta:hover {
+    text-shadow: 1px 1px rgba(0, 0, 0, .3);
+    /* Sombra del texto */
+    background: #ffcccc;
+    /* Fondo más oscuro que el original */
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, .3), inset -3px -3px 3px rgba(255, 255, 255, .2);
+}
+
+.FormTransfer {
+    padding: 5px;
+    text-align: center;
+}
+
+.TransfiereBoton {
+    padding: 10px;
+    margin: 10px;
+    font-family: Noto Sans, sans-serif;
+    background-color: white !important;
+    color: black;
+    text-shadow: -1px 0 1px #444;
+    font-size: 15px;
+    font-weight: bold;
+    border: black;
+}
+
+.FormMonto {
+    width: 57px;
+    height: 34px;
+    margin: 20px;
+    border: 1px solid;
+}
+
+.FormMoneda {
+    margin: 18px;
+    border: 1px solid;
+    font-family: Noto Sans, sans-serif;
+    background-color: white !important;
+    color: black;
+    text-shadow: -1px 0 1px #444;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.BotonTransferir {
+    margin: 8px;
+    border: 1px black;
+    font-family: Noto Sans, sans-serif;
+    background-color: white !important;
+    color: black;
+    text-shadow: -1px 0 1px #444;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.BotonTransferir:hover {
+    text-shadow: 1px 1px rgba(0, 0, 0, .3);
+    /* Sombra del texto */
+    background: #ffcccc;
+    /* Fondo más oscuro que el original */
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, .3), inset -3px -3px 3px rgba(255, 255, 255, .2);
+}
+
+.BotonEnviar {
+    margin: 1px;
+    border: 1px black;
+    font-family: Noto Sans, sans-serif;
+    background-color: white !important;
+    color: black;
+    text-shadow: -1px 0 1px #444;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.BotonTransferir:hover {
+    text-shadow: 1px 1px rgba(0, 0, 0, .3);
+    /* Sombra del texto */
+    background: #ffcccc;
+    /* Fondo más oscuro que el original */
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, .3), inset -3px -3px 3px rgba(255, 255, 255, .2);
+}
+
+.texto1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-shadow: -1px 0 1px #444;
+    color: #5e0101;
+    font-family: Noto sans, sans-serif;
+}
+
+#tabla {
+    margin: 30px auto;
+    width: 80%;
+    min-width: 250px;
+    font-family: "Noto Sans", sans-serif;
+    font-style: italic;
+    border: 2px solid #5e0101;
+}
+
+#tabla th {
+    text-align: center;
+    background-color: #5e0101;
+    color: rgb(250, 250, 250);
+    font-weight: unset;
+    font-size: 1.1em;
+}
+
+#tabla tr,
+#tabla td,
+#tabla th {
+    border: 1px solid rgb(0, 0, 0);
+    padding-left: 5px;
+}
+
+#tabla tr:nth-child(even) {
+    background-color: rgb(255, 225, 225)
+}
+
+#tabla tr:hover {
+    background-color: rgb(228, 185, 185);
+}
+
+.menuopciones {
+    background-color: #fce6e6;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-shadow: -1px 0 1px #444;
+    font-family: Noto sans, sans-serif;
+    max-width: 1300px;
+
+
+}
+
+.boton {
+    border: 1px solid #ffcccc;
+    background-color: #ffcccc;
+    color: #5e0101;
+    margin: 1em 1em;
+    padding: 30px 10px;
+    width: 40%;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.boton:hover {
+    text-shadow: 1px 1px rgba(0, 0, 0, .3);
+    /* Sombra del texto */
+    background: white;
+    /* Fondo más oscuro que el original */
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, .3), inset -3px -3px 3px rgba(255, 255, 255, .2);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.iconostexto {
+    font-size: 15px;
+    display: inline;
+    text-decoration: none;
+    color: #bc0101;
+    font-weight: bold;
+}
+
+.imagenes {
+    height: 50px;
+    width: 50px;
+    display: inline;
+
+}
+
+.imagenes:hover {
+    text-shadow: 1px 1px rgba(0, 0, 0, .3);
+    /* Sombra del texto */
+    background: #fe8181;
+    /* Fondo más oscuro que el original */
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, .3), inset -3px -3px 3px rgba(255, 255, 255, .2);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.iconoayuda {
+    height: 70px;
+    width: 100px;
+}
+
+/* Footer */
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+
+}
+
+.footcolorcopy {
+    background-color: #7d0101;
+    color: aliceblue;
+
+}
+
+.footcolor {
+    background-color: #060606;
+    color: aliceblue;
+
+}
+
+a:hover {
+    color: #fb0202 !important;
+}
+
+footer a {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+
+.marginfoot2em {
+    padding: 2em;
+}
