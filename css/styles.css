@@ -1,7 +1,25 @@
 /* Navigation Bar */
 #title {
-    background-color: #060606;
-    color: aliceblue;
+    background-color: #fb0202;
+}
+
+.row {
+    display: flex;
+}
+
+.main-header {
+    width: 1920px;
+    background-color: #9d0101;
+}
+
+.icon-logo {
+    position: relative;
+    left: 130px;
+}
+
+.d-flex {
+    position: relative;
+    left: 300px;
 }
 
 .container-fluid {
@@ -13,8 +31,19 @@
     font-weight: 700;
 }
 
+.navbar-nav {
+    color: #5e0101;
+    font-style: normal;
+    font-family: Noto sans, sans-serif;
+}
+
 .navbar {
     padding-bottom: .5rem;
+}
+
+.navbar-collapse {
+    position: relative;
+    left: -40px;
 }
 
 .nav-item {
@@ -311,7 +340,6 @@ footer a {
     color: aliceblue;
 
 }
-
 
 
 .marginfoot2em {
