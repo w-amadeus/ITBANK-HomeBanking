@@ -177,12 +177,12 @@ box-shadow:inset 4px 4px 4px rgba(0,0,0,.3), inset -3px -3px 3px rgba(255,255,25
     min-width: 250px;
     font-family: "Noto Sans", sans-serif;
     font-style: italic;
-    border: 2px solid rgb(219,0,0);
+    border: 2px solid #5e0101;
 }
 
 #tabla th{
     text-align: center;
-    background-color: rgb(219, 0, 0);
+    background-color: #5e0101;
     color: rgb(250, 250, 250);
     font-weight: unset;
     font-size: 1.1em;
@@ -203,7 +203,6 @@ box-shadow:inset 4px 4px 4px rgba(0,0,0,.3), inset -3px -3px 3px rgba(255,255,25
 
  .menuopciones{
     background-color: #fce6e6;
-    border: 1px solid rgb(255, 0, 0);
     border-radius: 10px;
     flex-wrap: wrap;
     text-align: center;
@@ -214,20 +213,14 @@ box-shadow:inset 4px 4px 4px rgba(0,0,0,.3), inset -3px -3px 3px rgba(255,255,25
     text-shadow: -1px 0 1px #444;
     font-family: Noto sans, sans-serif;
     max-width: 1300px;
-    box-shadow: 0px 0px 5px 0px #bc0101;
     
-}
-.menuopciones:hover {
-	text-shadow: 1px 1px rgba(0,0,0,.3);  /* Sombra del texto */
-	background: #ffcccc;  /* Fondo más oscuro que el original */
-	box-shadow:inset 4px 4px 4px rgba(0,0,0,.3), inset -3px -3px 3px rgba(255,255,255,.2);
+    
 }
 
 .boton {
-    border: solid 1px rgb(207, 5, 5);
-    border-radius: 10px;
-    background-color: white;
-    color: black;
+    border:1px solid #ffcccc;
+    background-color: #ffcccc;
+    color:#5e0101;
     margin: 1em 1em;
     padding: 30px 10px ;
     width: 40%;
@@ -245,16 +238,24 @@ font-size: 15px;
 display: inline;
 text-decoration:none;
 color:#bc0101;
-
-
+font-weight:bold;
 }
+
 .imagenes{
     height: 50px;
     width:50px;
     display: inline;
     
 }
-
+.imagenes:hover{
+    text-shadow: 1px 1px rgba(0,0,0,.3);  /* Sombra del texto */
+    background: #fe8181;  /* Fondo más oscuro que el original */
+    box-shadow:inset 4px 4px 4px rgba(0,0,0,.3), inset -3px -3px 3px rgba(255,255,255,.2);hadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.iconoayuda{
+    height: 70px;
+    width: 100px;
+}
 /* Footer */
 
 footer{ position: relative;  bottom: 0;
@@ -282,8 +283,7 @@ text-decoration: none;
 
 }
 
-.positiosecfoot{position: relative; top: 50px;
-}
+
 
 .marginfoot2em{
     padding: 2em;
