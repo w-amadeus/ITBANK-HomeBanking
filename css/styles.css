@@ -1,6 +1,6 @@
 /* Navigation Bar */
 #title {
-    background-color: #fb0202;
+    background-color: #f03c3cc4;
 }
 
 .row {
@@ -8,19 +8,14 @@
 }
 
 .main-header {
-    width: 1920px;
-    background-color: #9d0101;
+    width: 100%;
+    background-color: #EA0000;
 }
 
 .icon-logo {
     position: relative;
-    left: 130px;
 }
 
-.d-flex {
-    position: relative;
-    left: 300px;
-}
 
 .container-fluid {
     padding: 0% 10%;
@@ -38,16 +33,14 @@
 }
 
 .navbar {
-    padding-bottom: .5rem;
+    padding-bottom: 0.5rem;
 }
 
 .navbar-collapse {
-    position: relative;
-    left: -40px;
 }
 
 .nav-item {
-    padding: 0 18px;
+    padding: 0 15%;
 }
 
 
@@ -310,6 +303,10 @@ body {
 }
 
 /* Footer */
+
+.d-flex {
+    
+}
 
 footer {
     position: relative;
