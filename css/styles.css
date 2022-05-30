@@ -1,25 +1,40 @@
 /* Navigation Bar */
 #title {
-    background-color: #f03c3cc4;
+    background-color: #7d0101;
+    width: 100%;
 }
 
-.row {
+/*.row {
     display: flex;
-}
+}*/
 
 .main-header {
     width: 100%;
-    background-color: #EA0000;
+    background-color: #060606;
 }
 
-.icon-logo {
+/*.icon-logo {
     position: relative;
+}*/
+/* .modDivR{
+width:100% ;
+padding-right: 100%;
+ 
+}*/
+.modDivNavHernan a{
+    color: aliceblue;
+ 
+}
+.modDivNavHernan{
+    align-items: center;
+}
+.modHeaderHer{
+   margin:0%;
 }
 
-
-.container-fluid {
+/*.container-fluid {
     padding: 0% 10%;
-}
+}*/
 
 .navbar-brand {
     font-size: 2.5rem;
@@ -32,16 +47,16 @@
     font-family: Noto sans, sans-serif;
 }
 
-.navbar {
+/*.navbar {
     padding-bottom: 0.5rem;
-}
+}*/
 
 .navbar-collapse {
 }
 
-.nav-item {
+/*.nav-item {
     padding: 0 15%;
-}
+}*/
 
 
 /*Body*/
@@ -248,7 +263,7 @@ body {
     margin-right: 30px;
     text-shadow: -1px 0 1px #444;
     font-family: Noto sans, sans-serif;
-    max-width: 1300px;
+    max-width: 100%;
 
 
 }
