@@ -1,29 +1,14 @@
-/* Navigation Bar */
+/* ================= Navigatio Bar ========= */
 #title {
     background-color: #7d0101;
     width: 100%;
 }
-
-/*.row {
-    display: flex;
-}*/
-
 .main-header {
     width: 100%;
     background-color: #060606;
 }
-
-/*.icon-logo {
-    position: relative;
-}*/
-/* .modDivR{
-width:100% ;
-padding-right: 100%;
- 
-}*/
 .modDivNavHernan a{
     color: aliceblue;
- 
 }
 .modDivNavHernan{
     align-items: center;
@@ -31,32 +16,17 @@ padding-right: 100%;
 .modHeaderHer{
    margin:0%;
 }
-
-/*.container-fluid {
-    padding: 0% 10%;
-}*/
-
 .navbar-brand {
     font-size: 2.5rem;
     font-weight: 700;
 }
-
 .navbar-nav {
     color: #5e0101;
     font-style: normal;
     font-family: Noto sans, sans-serif;
 }
-
-/*.navbar {
-    padding-bottom: 0.5rem;
-}*/
-
-/*.nav-item {
-    padding: 0 15%;
-}*/
-
-
-/*Body*/
+/* ========================================= */
+/* ================= Body ================== */
 body {
     background-color: #fce6e6;
     width: 100%;
@@ -205,50 +175,24 @@ body {
     /* Fondo más oscuro que el original */
     box-shadow: inset 4px 4px 4px rgba(0, 0, 0, .3), inset -3px -3px 3px rgba(255, 255, 255, .2);
 }
-
-.texto1 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-shadow: -1px 0 1px #444;
-    color: #5e0101;
-    font-family: Noto sans, sans-serif;
+/* ======= Movimientos bancarios ======== */
+.sect-body{
+    max-width: 80%;
+    font-family: Noto Sans, sans-serif;
 }
-
-#tabla {
-    margin: 30px auto;
-    width: 80%;
-    min-width: 250px;
-    font-family: "Noto Sans", sans-serif;
-    font-style: italic;
-    border: 2px solid #5e0101;
+.limite{
+    min-width: 5.9em;
 }
-
-#tabla th {
-    text-align: center;
-    background-color: #5e0101;
-    color: rgb(250, 250, 250);
-    font-weight: unset;
-    font-size: 1.1em;
+.border-ext{
+    border: 2px solid rgb(14, 112, 14)
 }
-
-#tabla tr,
-#tabla td,
-#tabla th {
-    border: 1px solid rgb(0, 0, 0);
-    padding-left: 5px;
+.celda-int{
+    border-top: 2px solid rgb(14, 112, 14);
 }
-
-#tabla tr:nth-child(even) {
-    background-color: rgb(255, 225, 225)
-}
-
-#tabla tr:hover {
+.row-par{
     background-color: rgb(228, 185, 185);
 }
-
+/* ====================================== */
 .menuopciones {
     background-color: #fce6e6;
     border-radius: 10px;
@@ -313,8 +257,8 @@ body {
     height: 70px;
     width: 100px;
 }
-
-/* Footer */
+/* ========================================= */
+/* ================= Footer ================ */
 
 
 
@@ -352,3 +296,4 @@ footer a {
 .marginfoot2em {
     padding: 2em;
 }
+/* ========================================= */
