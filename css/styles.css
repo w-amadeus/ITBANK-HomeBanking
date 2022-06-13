@@ -1,29 +1,14 @@
-/* Navigation Bar */
+/* ================= Navigatio Bar ========= */
 #title {
     background-color: #7d0101;
     width: 100%;
 }
-
-/*.row {
-    display: flex;
-}*/
-
 .main-header {
     width: 100%;
     background-color: #060606;
 }
-
-/*.icon-logo {
-    position: relative;
-}*/
-/* .modDivR{
-width:100% ;
-padding-right: 100%;
- 
-}*/
 .modDivNavHernan a{
     color: aliceblue;
- 
 }
 .modDivNavHernan{
     align-items: center;
@@ -31,32 +16,17 @@ padding-right: 100%;
 .modHeaderHer{
    margin:0%;
 }
-
-/*.container-fluid {
-    padding: 0% 10%;
-}*/
-
 .navbar-brand {
     font-size: 2.5rem;
     font-weight: 700;
 }
-
 .navbar-nav {
     color: #5e0101;
     font-style: normal;
     font-family: Noto sans, sans-serif;
 }
-
-/*.navbar {
-    padding-bottom: 0.5rem;
-}*/
-
-/*.nav-item {
-    padding: 0 15%;
-}*/
-
-
-/*Body*/
+/* ===================================================== */
+/* ======================== Body ======================= */
 body {
     background-color: #fce6e6;
     width: 100%;
@@ -205,85 +175,47 @@ body {
     /* Fondo más oscuro que el original */
     box-shadow: inset 4px 4px 4px rgba(0, 0, 0, .3), inset -3px -3px 3px rgba(255, 255, 255, .2);
 }
-
-.texto1 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-shadow: -1px 0 1px #444;
-    color: #5e0101;
-    font-family: Noto sans, sans-serif;
+/* ======= Movimientos bancarios ======== */
+.sect-body-1{
+    max-width: 80%;
+    font-family: Noto Sans, sans-serif;
 }
-
-#tabla {
-    margin: 30px auto;
-    width: 80%;
-    min-width: 250px;
-    font-family: "Noto Sans", sans-serif;
-    font-style: italic;
-    border: 2px solid #5e0101;
+.limite{
+    min-width: 5.9em;
 }
-
-#tabla th {
-    text-align: center;
-    background-color: #5e0101;
-    color: rgb(250, 250, 250);
-    font-weight: unset;
-    font-size: 1.1em;
+.border-ext{
+    border: 2px solid rgb(14, 112, 14)
 }
-
-#tabla tr,
-#tabla td,
-#tabla th {
-    border: 1px solid rgb(0, 0, 0);
-    padding-left: 5px;
+.border-int{
+    border-top: 2px solid rgb(14, 112, 14);
 }
-
-#tabla tr:nth-child(even) {
-    background-color: rgb(255, 225, 225)
-}
-
-#tabla tr:hover {
+.row-par{
     background-color: rgb(228, 185, 185);
 }
-
-.menuopciones {
-    background-color: #fce6e6;
-    border-radius: 10px;
-    flex-wrap: wrap;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
-    text-shadow: -1px 0 1px #444;
-    font-family: Noto sans, sans-serif;
-    max-width: 100%;
-
-
+/* ====================================== */
+/* ======= Menú de Opciones ============= */
+.sect-body-2{
+    max-width: 90%;
+    font-family: Noto Sans, sans-serif;
 }
-
-.boton {
-    border: 1px solid #ffcccc;
-    background-color: #ffcccc;
-    color: #5e0101;
-    margin: 1em 1em;
-    padding: 30px 10px;
-    width: 40%;
-    font-size: 17px;
-    font-weight: bold;
+.boton{
+    transition: box-shadow 0.3s ease, text-shadow 0.3s ease, background-color 0.15s ease;
+    width: 100%;
+    min-width: 6.7em;
+    height: 5em;
+    background-color: rgb(106, 179, 159);
+    box-shadow: 0.3rem 0.5rem 1rem rgba(0,0,0, 0.3);
+    text-shadow: 0.1rem 0.1rem 0.2rem rgb(68, 68, 68);
 }
-
-.boton:hover {
-    text-shadow: 1px 1px rgba(0, 0, 0, .3);
-    /* Sombra del texto */
-    background: white;
-    /* Fondo más oscuro que el original */
-    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, .3), inset -3px -3px 3px rgba(255, 255, 255, .2);
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+.boton:hover{
+    box-shadow: 0.3rem 0.5rem 1rem rgba(0,0,0,0.7);
+    text-shadow: 0.1rem 0.1rem 0.2rem rgb(17, 17, 17);
+    background-color: rgb(86, 159, 139);
 }
+.boton:active{
+    background-color: rgb(147, 198, 183) ;
+}
+/* ====================================== */
 
 .iconostexto {
     font-size: 15px;
@@ -313,8 +245,8 @@ body {
     height: 70px;
     width: 100px;
 }
-
-/* Footer */
+/* ===================================================== */
+/* ======================== Footer ===================== */
 
 
 
@@ -352,3 +284,4 @@ footer a {
 .marginfoot2em {
     padding: 2em;
 }
+/* ========================================= */
