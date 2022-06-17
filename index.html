@@ -58,12 +58,20 @@
         <!-- Container wrapper -->
         <div class="container-fluid">
           <!-- Toggle button -->
-          <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-            data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
-          </button>
-
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" data-mdb-toggle="collapse"
+          data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent offcanvasWithBothOptions" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="offcanvas offcanvas-start prueba" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"> Hola </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-header"> <!-- Tuve que poner header ya que con body se bugea -->
+            <p>chau</p>
+          </div>
+        </div>
           <!-- Collapsible wrapper -->
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <!-- Left links -->
@@ -268,67 +276,56 @@
         </div>
   </section>
   <section>
-    <!-- ================================= Movimientos bancarios ======================== -->
-    <div class="container sect-body-1 p-0">
+      <!-- ================================= Movimientos bancarios ======================== -->
+      <div class="container sect-body-1 p-0">
       <p class="text-start fs-4"> Últimos movimientos bancarios:</p>
       <!-- ========== Historial =========== -->
-      <div class="row text-center fs-6 border-ext">
-        <div class="col px-0 limite ">
-            <p class="my-0 bg-success text-white fst-italic"> Operación </p>
-          <div class="text-start">
-            <p class="my-0 border-int"> Ejemplo 1 </p>
-            <p class="my-0 border-int row-par"> Ejemplo 2 </p>
-            <p class="my-0 border-int"> Ejemplo 3 </p>
-            <p class="my-0 border-int row-par"> Ejemplo 4 </p>
-            <p class="my-0 border-int"> Ejemplo 5 </p>
-          </div>
+      <p class="text-start fs-4"> Ten un seguimiento de tus movimientos bancarios:</p>
+      <div class="container sect-body-1 p-0">
+        <div class="row px-0 text-center">
+          <p class="col lh-1 px-1 py-2 my-0 fs-5 bg text-white fst-italic"> Últimos movimientos bancarios </p>
         </div>
-        <div class="col px-0 limite">
-            <p class="my-0 bg-success text-white fst-italic"> Monto</p>
-          <div class="text-start">
-            <p class="my-0 border-int"> $1000 </p>
-            <p class="my-0 border-int row-par"> $1000 </p>
-            <p class="my-0 border-int"> $1000 </p>
-            <p class="my-0 border-int row-par"> $1000 </p>
-            <p class="my-0 border-int"> $1000 </p>
-          </div>
+        <div class="prueba row px-0 align-items-center border-ext row-impar">
+          <p class="col lh-1 px-1 py-2 my-0 fs-5"> $(fecha): Se produjo un(a) $(operacion) con un monto de $(monto) </p>
         </div>
-        <div class="col px-0 limite">
-          <p class="my-0 bg-success text-white fst-italic"> Fecha y hora</p>
-          <div class="text-start">
-          <p class="my-0 border-int"> 14/01/2004 </p>
-          <p class="my-0 border-int row-par"> 14/01/2004 </p>
-          <p class="my-0 border-int"> 14/01/2004 </p>
-          <p class="my-0 border-int row-par"> 14/01/2004 </p>
-          <p class="my-0 border-int"> 14/01/2004 </p>
-          </div>
+        <div class="prueba row px-0 align-items-center border-ext row-par">
+          <p class="col lh-1 px-1 py-2 my-0 fs-5"> 15/12/2007 18:01:07: Se produjo un(a) Movimiento Bancario de monto $1000</p>
+        </div>
+        <div class="prueba row px-0 align-items-center border-ext row-impar">
+          <p class="col lh-1 px-1 py-2 my-0 fs-5"> 13/2/2006 18:01:21: Se produjo un(a) Movimiento Bancario de monto $1000 </p>
+        </div>
+        <div class="prueba row px-0 align-items-center border-ext row-par">
+          <p class="col lh-1 px-1 py-2 my-0 fs-5"> 14/1/2004 18:01:21: Se produjo un(a) Movimiento Bancario de monto $1000 </p>
+        </div>
+        <div class="prueba row px-0 align-items-center border-ext row-impar">
+          <p class="col lh-1 px-1 py-2 my-0 fs-5"> 5/8/2003 18:01:21: Se produjo un(a) Movimiento Bancario de monto $1000 </p>
         </div>
       </div>
       <!-- ================================= -->
       <!-- ========== Botón Detalles ======= -->
       <div class="d-grid gap-2 col-8 mx-auto my-2">
-        <button class="btn btn-secondary" type="button"> Ver más detalles... </button>
+        <button class="rounded-2 boton-1 text-white" type="button"> Ver más detalles... </button>
       </div>
       <!-- ================================= -->
     </div>
     <!-- ================================================================================= -->
     <!-- ================================= Menú de opciones ============================== -->
-    <div class="container sect-body-2 fs-5 my-3">
-        <p class="text-start fs-4 text-titulo"> Sistemas de pagos disponibles:</p>
+    <div class="container sect-body-2 fs-5 my-3 p-0">
+        <p class="text-start fs-4"> Sistemas de pagos disponibles:</p>
       <div class="row text-center">
         <div class="col p-2">
-          <button class="rounded-2 boton text-white border-top-0 border-start-0 border-bottom border-end border-3 border-secondary"> Paypal </button>
+          <button class="rounded-2 boton-2 text-white"> Paypal </button>
         </div>
         <div class="col p-2">
-          <button class="rounded-2 boton text-white border-top-0 border-start-0 border-bottom border-end border-3 border-secondary"> Cuentas de ahorro </button>
+          <button class="rounded-2 boton-2 text-white"> Cuentas de ahorro </button>
         </div>
       </div>
       <div class="row text-center">
         <div class="col p-2">
-          <button class="rounded-2 boton text-white border-top-0 border-start-0 border-bottom border-end border-3 border-secondary"> Pago automatico </button>
+          <button class="rounded-2 boton-2 text-white"> Pago automatico </button>
         </div>
         <div class="col p-2">
-          <button class="rounded-2 boton text-white border-top-0 border-start-0 border-bottom border-end border-3 border-secondary"> Tarjeta ITBANK </button>
+          <button class="rounded-2 boton-2 text-white"> Tarjeta ITBANK </button>
         </div>
       </div>
     </div>

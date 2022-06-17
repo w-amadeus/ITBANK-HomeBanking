@@ -1,17 +1,17 @@
 /* ================= Navigatio Bar ========= */
 #title {
-    background-color: #7d0101;
+    background-color: #004481;
     width: 100%;
 }
 .main-header {
     width: 100%;
-    background-color: #060606;
+    background-color: #072146;
 }
 .modDivNavHernan a{
-    color: aliceblue;
+    color: #f0f8ff;
 }
 .modDivNavHernan{
-    align-items: center;
+    align-items: center !important;
 }
 .modHeaderHer{
    margin:0%;
@@ -25,10 +25,10 @@
     font-style: normal;
     font-family: Noto sans, sans-serif;
 }
-/* ===================================================== */
-/* ======================== Body ======================= */
+/* ========================================= */
+/* ================= Body ================== */
 body {
-    background-color: #fce6e6;
+    background-color: #f0f8ff;
     width: 100%;
 }
 
@@ -177,20 +177,48 @@ body {
 }
 /* ======= Movimientos bancarios ======== */
 .sect-body-1{
-    max-width: 80%;
+    max-width: 90%;
     font-family: Noto Sans, sans-serif;
 }
 .limite{
     min-width: 5.9em;
 }
 .border-ext{
-    border: 2px solid rgb(14, 112, 14)
+    border-color: #00635B;
+    border-style: solid;
+    border-width: 0em 0.15em 0.15em 0.15em;
 }
-.border-int{
-    border-top: 2px solid rgb(14, 112, 14);
+.row-impar{
+    background-color: #fff;
 }
 .row-par{
-    background-color: rgb(228, 185, 185);
+    background-color: #BEFADF;
+}
+.prueba:hover{
+    background-color: #C2E5FA;
+}
+.bg{
+    background-color: #024941;
+}
+.boton-1{
+    transition: text-shadow 0.3s ease, background-color 0.15s ease;
+    width: 100%;
+    min-width: 6.7em;
+    height: 2.3em;
+    background-color:#0FA095;
+    border-color: #00635B;
+    border-style: solid;
+    border-width: 0.15em 0.15em 0.15em 0.15em;
+    box-shadow: 0.3rem 0.5rem 1rem rgba(0,0,0, 0.3);
+    text-shadow: 0.1rem 0.1rem 0.2rem rgb(68, 68, 68);
+}
+.boton-1:hover{
+    text-shadow: 0.1rem 0.1rem 0.2rem rgb(17, 17, 17);
+    background-color:#0C8D7F;
+}
+.boton-1:active{
+    text-shadow: 0.1rem 0.1rem 0.2rem rgb(17, 17, 17);
+    background-color: #2ED3C1;
 }
 /* ====================================== */
 /* ======= Menú de Opciones ============= */
@@ -198,25 +226,27 @@ body {
     max-width: 90%;
     font-family: Noto Sans, sans-serif;
 }
-.boton{
+.boton-2{
     transition: box-shadow 0.3s ease, text-shadow 0.3s ease, background-color 0.15s ease;
     width: 100%;
     min-width: 6.7em;
     height: 5em;
-    background-color: rgb(106, 179, 159);
+    background-color:#1464a5;
+    border-color: #043263;
+    border-style: solid;
+    border-width: 0px 0.2em 0.2em 0px;
     box-shadow: 0.3rem 0.5rem 1rem rgba(0,0,0, 0.3);
     text-shadow: 0.1rem 0.1rem 0.2rem rgb(68, 68, 68);
 }
-.boton:hover{
+.boton-2:hover{
     box-shadow: 0.3rem 0.5rem 1rem rgba(0,0,0,0.7);
     text-shadow: 0.1rem 0.1rem 0.2rem rgb(17, 17, 17);
-    background-color: rgb(86, 159, 139);
+    background-color: #004481;
 }
-.boton:active{
-    background-color: rgb(147, 198, 183) ;
+.boton-2:active{
+    background-color: #49a5e6 ;
 }
 /* ====================================== */
-
 .iconostexto {
     font-size: 15px;
     display: inline;
@@ -245,8 +275,8 @@ body {
     height: 70px;
     width: 100px;
 }
-/* ===================================================== */
-/* ======================== Footer ===================== */
+/* ========================================= */
+/* ================= Footer ================ */
 
 
 
@@ -259,13 +289,13 @@ footer {
 }
 
 .footcolorcopy {
-    background-color: #7d0101;
+    background-color: #004481;
     color: aliceblue;
 
 }
 
 .footcolor {
-    background-color: #060606;
+    background-color: #072146;
     color: aliceblue;
 
 }
@@ -285,3 +315,14 @@ footer a {
     padding: 2em;
 }
 /* ========================================= */
+/* Azules */
+#072146 / #04312C
+#043263 / #024941
+#004481 / #00635B
+#1464a5 / #0C8D7F
+#1973b8 / #0FA095
+#49a5e6 / #2ED3C1
+#5bbeff / #3BE6DC
+#C2E5FA / #BEFADF
+#d4edfc /
+#f0f8ff
