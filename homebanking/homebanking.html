@@ -20,15 +20,15 @@
 <body>
   <section id="title">
 
-    <div class="container-fluid row main-header header-private">
+    <div class="container-fluid row main-header header-private modHeaderHer">
       <!-- Logo Container -->
-      <div class="col main-logo-container">
+      <div class="col main-logo-container modDivLogo">
         <span class="icon-logo">
           <img src="img/logo.png" height="50" alt="ITBANKLogo" loading="lazy" />
         </span>
       </div>
       <!-- Right elements -->
-      <div class="col d-flex align-items-center">
+      <div class="col d-flex align-items-center modDivR">
         <!-- Avatar -->
         <div class="dropdown">
           <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#" id="navbarDropdownMenuAvatar"
@@ -52,18 +52,26 @@
       <!-- Right elements -->
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid modDivNavHernan">
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg">
         <!-- Container wrapper -->
         <div class="container-fluid">
           <!-- Toggle button -->
-          <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-            data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
-          </button>
-
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" data-mdb-toggle="collapse"
+          data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent offcanvasWithBothOptions" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="offcanvas offcanvas-start prueba" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"> Hola </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-header"> <!-- Tuve que poner header ya que con body se bugea -->
+            <p>chau</p>
+          </div>
+        </div>
           <!-- Collapsible wrapper -->
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <!-- Left links -->
@@ -268,59 +276,59 @@
         </div>
   </section>
   <section>
-    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-      <p class="texto1"> Historial de tus últimos movimientos bancarios:</p>
-      <table id="tabla">
-        <tr>
-          <th> Cargo realizado </th>
-          <th> Monto</th>
-          <th> Fecha y hora </th>
-        </tr>
-        <tr class="celdas">
-          <td> Ejemplo 1 </td>
-          <td> $10.000</td>
-          <td> 17/5/2022</td>
-        </tr>
-        <tr class="celdas">
-          <td> Ejemplo 2 </td>
-          <td> $11.000</td>
-          <td> 16/4/2022</td>
-        </tr>
-        <tr class="celdas">
-          <td> Ejemplo 3 </td>
-          <td> $7.500</td>
-          <td> 14/4/2022</td>
-        </tr>
-        <tr class="celdas">
-          <td> Ejemplo 4 </td>
-          <td> $13.000</td>
-          <td> 14/3/2022</td>
-        </tr>
-        <tr class="celdas">
-          <td> Ejemplo 5 </td>
-          <td> $2.000</td>
-          <td> 10/2/2022</td>
-        </tr>
-        <tr class="celdas">
-          <td> Ejemplo 6 </td>
-          <td> $5.000</td>
-          <td> 7/1/2022</td>
-        </tr>
-        <tr class="celdas">
-          <td> Ejemplo 7 </td>
-          <td> $10.000</td>
-          <td> 1/1/2022</td>
-        </tr>
-      </table>
+      <!-- ================================= Movimientos bancarios ======================== -->
+      <div class="container sect-body-1 p-0">
+      <!-- ========== Historial =========== -->
+      <p class="text-start fs-4"> Ten un seguimiento de tus movimientos bancarios:</p>
+      <div class="container sect-body-1 p-0">
+        <div class="row px-0 text-center">
+          <p class="col lh-1 px-1 py-2 my-0 fs-5 bg text-white fst-italic"> Últimos movimientos bancarios </p>
+        </div>
+        <div class="prueba row px-0 align-items-center border-ext row-impar">
+          <p class="col lh-1 px-1 py-2 my-0 fs-5"> $(fecha): Se produjo un(a) $(operacion) con un monto de $(monto) </p>
+        </div>
+        <div class="prueba row px-0 align-items-center border-ext row-par">
+          <p class="col lh-1 px-1 py-2 my-0 fs-5"> 15/12/2007 18:01:07: Se produjo un(a) Movimiento Bancario de monto $1000</p>
+        </div>
+        <div class="prueba row px-0 align-items-center border-ext row-impar">
+          <p class="col lh-1 px-1 py-2 my-0 fs-5"> 13/2/2006 18:01:21: Se produjo un(a) Movimiento Bancario de monto $1000 </p>
+        </div>
+        <div class="prueba row px-0 align-items-center border-ext row-par">
+          <p class="col lh-1 px-1 py-2 my-0 fs-5"> 14/1/2004 18:01:21: Se produjo un(a) Movimiento Bancario de monto $1000 </p>
+        </div>
+        <div class="prueba row px-0 align-items-center border-ext row-impar">
+          <p class="col lh-1 px-1 py-2 my-0 fs-5"> 5/8/2003 18:01:21: Se produjo un(a) Movimiento Bancario de monto $1000 </p>
+        </div>
+      </div>
+      <!-- ================================= -->
+      <!-- ========== Botón Detalles ======= -->
+      <div class="d-grid gap-2 col-8 mx-auto my-2">
+        <button class="rounded-2 boton-1 text-white" type="button"> Ver más detalles... </button>
+      </div>
+      <!-- ================================= -->
     </div>
-    <div class="menuopciones">
-      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-        <button class="boton paypal"> Paypal</button>
-        <button class="boton cuentasdeahorro"> Cuentas de ahorro </button>
-        <button class="boton pagoautomatico"> Pago Automatico</button>
-        <button class="boton tarjetaitbank"> Tarjeta Itbank</button>
+    <!-- ================================================================================= -->
+    <!-- ================================= Menú de opciones ============================== -->
+    <div class="container sect-body-2 fs-5 my-3 p-0">
+        <p class="text-start fs-4"> Sistemas de pagos disponibles:</p>
+      <div class="row text-center">
+        <div class="col p-2">
+          <button class="rounded-2 boton-2 text-white"> Paypal </button>
+        </div>
+        <div class="col p-2">
+          <button class="rounded-2 boton-2 text-white"> Cuentas de ahorro </button>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col p-2">
+          <button class="rounded-2 boton-2 text-white"> Pago automatico </button>
+        </div>
+        <div class="col p-2">
+          <button class="rounded-2 boton-2 text-white"> Tarjeta ITBANK </button>
+        </div>
       </div>
     </div>
+    <!-- ================================================================================= -->
   </section>
   <section>
     <div class="container">
