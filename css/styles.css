@@ -314,3 +314,21 @@ footer a {
 .marginfoot2em {
     padding: 2em;
 }
+
+.textostarjetas{
+    color: black;
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+}
+
+.h1textos{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #004481;
+    margin: auto;
+}
