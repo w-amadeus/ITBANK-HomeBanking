@@ -332,3 +332,24 @@ footer a {
     color: #004481;
     margin: auto;
 }
+
+/* NAV-LANDING*/
+
+/*NAVBAR*/
+.nav-cambios{
+    background-color: #49a5e6 !important;
+    
+    width: 100%;
+    height: 10%;
+}
+li{padding-left: 40px;}
+a{color: white !important;}
+a:hover{color: #3BE6DC !important;}
+.imgBodyNav{width: 100%; height: 300px;}
+.logoImg{ width: 100px; position: relative; left: 45%}
+.divLogo{align-content: center; width:10px;}
+.navIzq{position :relative ;
+left: 100px;}
+.navDer{position: relative; 
+right: 100px;}
+/*-----------------------------------------------*/
