@@ -12,9 +12,9 @@ const getApiData = async (url) => {
     return data
 };
 
-const card = $('#card');
-const spinner = $('#spinner');
-spinner.innerHTML = spinner();
+const main = $('#main-cards');
+const loading = $('#spinner');
+loading.innerHTML = spinner();
 let cards = '';
 
 (async () => {
@@ -23,7 +23,7 @@ let cards = '';
 		const { compra, nombre, variacion, venta } = result.casa;
         if (nombre === 'Dolar') continue
         if (nombre === 'Argentina') continue
-        if (nombre === 'Dolar Soja') continue
+		if (nombre === 'Dolar Soja') continue
 
 		cards += card({
 			name: nombre,
@@ -32,6 +32,6 @@ let cards = '';
 			variation: variacion,
 		});
 	}
-	card.innerHTML = cards;
-    spinner.innerHTML = ''
+	main.innerHTML = cards;
+    loading.innerHTML = ''
 })();

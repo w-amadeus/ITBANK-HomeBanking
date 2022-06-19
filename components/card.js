@@ -1,12 +1,12 @@
-const card= ({image , name, buyPrice , sellPrice ,variation }) => {
+const card = ({ image, name, buyPrice, sellPrice, variation }) => {
     const date = new Date();
-    let dolarVariation= ''
-    if (variation != undefined) {
-        dolarVariation= `${variation}%`;
-    } else{ dolarVariation= 'no hay datos'
-        }
-
-    const template = `
+    let dolarVariation = ''
+    if (variation !== undefined) {
+        dolarVariation = `${variation}%`;
+    } else {
+        dolarVariation = 'No hay datos'
+    }
+	const template = `
     <div class="bg-primary bg-opacity-25 p-4 mb-2 w-50 h-60 container-fluid border ">
                 <div class="row">
                     <img src="${image}" alt="">
@@ -18,7 +18,8 @@ const card= ({image , name, buyPrice , sellPrice ,variation }) => {
                 </div>
             </div>
     `;
-    return template; 
-    }
-    
-    export default card;
+
+	return template;
+};
+export default card;
+
