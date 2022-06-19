@@ -1,24 +1,23 @@
 /* ================= Navigatio Bar ========= */
 #title {
-    background-color: #004481;
+    background-color: #072146;
     width: 100%;
 }
 .main-header {
     width: 100%;
     background-color: #072146;
 }
-.modDivNavHernan a{
-    color: #f0f8ff;
+
+.custom__focus:hover {
+    border-radius: 10px !important;
 }
-.modDivNavHernan{
-    align-items: center !important;
+.custom__focus:focus {
+    border-radius: 10px !important;
 }
-.modHeaderHer{
-   margin:0%;
-}
+
 .navbar-brand {
     font-size: 2.5rem;
-    font-weight: 700;
+    font-weight: 500;
 }
 .navbar-nav {
     color: #5e0101;
@@ -346,7 +345,7 @@ footer a {
     width: 100%;
     height: 10%;
 }
-li{padding-left: 40px;}
+
 a{color: white !important;}
 a:hover{color: #3BE6DC !important;}
 .imgBodyNav{width: 100%; height: 300px;}
