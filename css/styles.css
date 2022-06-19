@@ -24,6 +24,37 @@
     font-style: normal;
     font-family: Noto sans, sans-serif;
 }
+
+section.header {
+    position: relative;
+    background-color: black;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  section.header video {
+    position: relative;
+    min-width: 100%;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+    object-fit: cover;
+    max-height: 420px;
+    min-height: 180px;
+  }
+  
+  
+  section.header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.3;
+    z-index: 1;
+  }
+
 /* ========================================= */
 /* ================= Body ================== */
 body {
