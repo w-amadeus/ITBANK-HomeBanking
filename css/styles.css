@@ -66,16 +66,6 @@ section.header {
     font-size: 4.5rem;
 }
 
-/* Help Section */
-.card-bg{
-    background-color: #f0f8ff;
-}
-
-.circle{
-    border-radius: 50%; 
-}
-
-
 body {
     background-color: #f0f8ff;
     width: 100%;
