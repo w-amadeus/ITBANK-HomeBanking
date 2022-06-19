@@ -12,9 +12,9 @@ const getApiData = async (url) => {
     return data
 };
 
-const main = $('#main-container');
-const isLoading = $('#is-loading');
-isLoading.innerHTML = spinner();
+const card = $('#card');
+const spinner = $('#spinner');
+spinner.innerHTML = spinner();
 let cards = '';
 
 (async () => {
@@ -32,6 +32,6 @@ let cards = '';
 			variation: variacion,
 		});
 	}
-	main.innerHTML = cards;
-    isLoading.innerHTML = ''
+	card.innerHTML = cards;
+    spinner.innerHTML = ''
 })();
