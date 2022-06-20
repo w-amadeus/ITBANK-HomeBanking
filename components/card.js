@@ -14,9 +14,9 @@ const card = ({ image, name, buyPrice, sellPrice, variation }) => {
         <div class="col-9">
             <div class="row px-2">
                 <div class="col-6 col-sm-3 datos px-0 fw-bold text-dolar d-flex align-items-center"> ${name} </div>
-                <div class="col-6 col-sm-3 datos px-0 fw-bold text-dolar text-end"> Compra: <br> ${buyPrice} </div>
+                <div class="col-6 col-sm-3 datos px-0 fw-bold text-dolar text-end"> Compra: <br> $${buyPrice} </div>
                 <div class="col-6 col-sm-3 datos px-0 fw-bold text-dolar"> Var: <br> ${dolarVariation} </div>
-                <div class="col-6 col-sm-3 datos px-0 fw-bold text-dolar text-end"> Venta: <br> ${sellPrice} </div>
+                <div class="col-6 col-sm-3 datos px-0 fw-bold text-dolar text-end"> Venta: <br> $${sellPrice} </div>
             </div>
         </div>
     </div>
