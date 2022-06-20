@@ -355,20 +355,17 @@ footer a {
     padding: 2em;
 }
 
-.textostarjetas{
+.text-card{
     font-family: 'Noto Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     margin: auto;
 }
-.h1textos{
+.title-card{
     font-size: 20px;
-    text-align: center;
-    font-weight: bold;
-    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
     color: #f0f8ff ;
-    margin: auto;
 }
-.card-1{
+.max-w-card{
     max-width: 80%;
 }
 .degradado{
@@ -376,6 +373,30 @@ footer a {
 }
 .sombreado{
     text-shadow: 0.1rem 0.1rem 0.2rem rgb(58, 56, 56);
+}
+/* DOLAR */
+.max-h-dolar{
+    max-height: 13.5em;
+    overflow: auto;
+}
+.datos{
+    width:50%;
+}
+.img-dolar{
+    width: 100%;
+    max-width: 50px;
+}
+.title-dolar{
+    font-family: 'Franklin Gothic', sans-serif;
+    background-color: #043263;
+}
+.text-dolar{
+    font-family: "Noto Sans", sans-serif;
+}
+.border-dolar{
+    border-color: #043263;
+    border-style: solid;
+    border-width: 0.1em 0px 0.1em 0px;
 }
 /* NAV-LANDING*/
 
