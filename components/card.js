@@ -7,16 +7,19 @@ const card = ({ image, name, buyPrice, sellPrice, variation }) => {
         dolarVariation = 'No hay datos'
     }
 	const template = `
-    <div class="bg-primary bg-opacity-25 p-4 mb-2 w-50 h-60 container-fluid border ">
-                <div class="row">
-                    <img src="${image}" alt="">
-                    <p class="fw-bolder text-info bg-dark text-center">${name}</p>
-                    <p class="fw-bold border text-primary fs-4 bg-opacity-25 text-center text-opacity-70">Para la compra ${buyPrice}
-                    </p>
-                    <p class="fw-bold border text-primary fs-4 bg-opacity-25 text-center text-opacity-70">Para la venta ${sellPrice}</p>
-                    <p class="fw-bold border text-primary fs-4 bg-opacity-25 text-center text-opacity-70">Variacion ${dolarVariation}</p>
-                </div>
+    <div class="row border-dolar my-0 py-1 mx-auto">
+        <div class="col-3 img-center py-0 pe-1 d-flex align-items-center">
+            <img src="https://i.ibb.co/jMg9Tw9/png-transparent-dollar-sign-illustration-united-states-dollar-icon-design-icon-dollar-sign-text-logo.png" class="img-dolar rounded-5 p-0">
+        </div>
+        <div class="col-9">
+            <div class="row px-2">
+                <div class="col-6 col-sm-3 datos px-0 fw-bold text-dolar d-flex align-items-center"> ${name} </div>
+                <div class="col-6 col-sm-3 datos px-0 fw-bold text-dolar text-end"> Compra: <br> $${buyPrice} </div>
+                <div class="col-6 col-sm-3 datos px-0 fw-bold text-dolar"> Var: <br> ${dolarVariation} </div>
+                <div class="col-6 col-sm-3 datos px-0 fw-bold text-dolar text-end"> Venta: <br> $${sellPrice} </div>
             </div>
+        </div>
+    </div>
     `;
 
 	return template;
